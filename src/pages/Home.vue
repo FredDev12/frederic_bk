@@ -39,26 +39,26 @@
                 title:'EduLink (MVP)', year:'2025',
                 summary:'Gestion scolaire: rôles, bulletins PDF, filières, inscriptions.',
                 tags:['Vue 3','Tailwind v4','Node/TypeORM','PDF'],
-                repo:'https://github.com/USERNAME/edulink', demo:'#', caseStudy:'/projects#edulink'
+                repo:'#', demo:'#', caseStudy:'/projects#edulink'
             }" />
             <ProjectCard :project="{
                 title:'Rondes connectées', year:'2025',
                 summary:'Flutter agent, backend Node, tableau de bord Vue, alertes GPS.',
                 tags:['Vue 3','Flutter','Node','Maps'],
-                repo:'https://github.com/USERNAME/wadoria-rondes', demo:'#', caseStudy:'/projects#rondes'
+                repo:'#', demo:'https://wadoria.com/', caseStudy:'/projects#rondes'
             }" />
         </div>
     </section>
 
 
-<section class="section">
-<SectionTitle title="Quelques chiffres" />
-<div class="grid sm:grid-cols-3 gap-5">
-<StatCard value="12+" label="Projets livrés" />
-<StatCard value=">99%" label="Disponibilité systèmes" />
-<StatCard value="5" label="Stacks maîtrisées" />
-</div>
-</section>
+    <section class="section">
+        <SectionTitle title="Quelques chiffres" />
+        <div class="grid sm:grid-cols-3 gap-5">
+            <StatCard value="12+" label="Projets livrés" />
+            <StatCard value=">99%" label="Disponibilité systèmes" />
+            <StatCard value="5" label="Stacks maîtrisées" />
+        </div>
+    </section>
 </template>
 <script setup>
 import SectionTitle from '@/components/SectionTitle.vue'
