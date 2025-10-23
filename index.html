@@ -1,13 +1,91 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <!-- Title & Basic SEO -->
+    <title>Frederic Betukumesu — Ingénieur Réseaux, DevOps & Full-stack</title>
+    <meta
+      name="description"
+      content="Portfolio de Frederic Betukumesu (Lubumbashi) — Ingénieur Réseaux & Télécoms, DevOps, développeur Vue/Node/Flutter. Projets : EduLink, rondes connectées, simulateur électrique."
+    />
+    <meta name="author" content="Frederic Betukumesu" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://freddev12.github.io/frederic_bk/" />
+
+    <!-- Favicon / Icons (IMPORTANT: %BASE_URL% pour GitHub Pages) -->
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.png" />
+    <link rel="icon" sizes="any" href="%BASE_URL%favicon.png" />
+    <!-- <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" /> -->
+
+    <!-- PWA / theme -->
+    <meta name="theme-color" content="#0a0a0c" />
+    <meta name="color-scheme" content="dark light" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Frederic Betukumesu — Ingénieur Réseaux, DevOps & Full-stack" />
+    <meta property="og:description" content="Projets Vue 3 + Tailwind, Node/TypeORM, Flutter. Études de cas : EduLink, rondes connectées, simulateur électrique." />
+    <meta property="og:url" content="https://freddev12.github.io/frederic_bk/" />
+    <meta property="og:image" content="https://freddev12.github.io/frederic_bk/og-cover.png" />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Frederic Betukumesu — Ingénieur Réseaux, DevOps & Full-stack" />
+    <meta name="twitter:description" content="Portfolio, projets, études de cas, contact." />
+    <meta name="twitter:image" content="https://freddev12.github.io/frederic_bk/og-cover.png" />
+
+    <!-- Réseaux sociaux / messagerie -->
+    <meta property="og:see_also" content="https://wa.me/243844894508" />     <!-- WhatsApp -->
+    <meta property="og:see_also" content="https://www.facebook.com/USERNAME" />
+    <meta property="og:see_also" content="https://www.instagram.com/USERNAME" />
+    <meta property="og:see_also" content="https://www.tiktok.com/@USERNAME" />
+
+    <!-- Preconnect (optionnel si tu utilises des fonts externes) -->
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    -->
+
+    <!-- GA4 (remplace G-XXXXXXX) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXX');
+    </script>
+    -->
+
+    <!-- JSON-LD (schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Frederic Betukumesu",
+      "url": "https://freddev12.github.io/frederic_bk/",
+      "jobTitle": "Ingénieur Réseaux & DevOps / Développeur Full-stack",
+      "address": { "@type": "PostalAddress", "addressLocality": "Lubumbashi", "addressCountry": "CD" },
+      "sameAs": [
+        "https://wa.me/243844894508",
+        "https://www.facebook.com/USERNAME",
+        "https://github.com/FredDev12",
+        "https://www.linkedin.com/in/frédéric-betukumesu"
+      ]
+    }
+    </script>
   </head>
-  <body>
+  <body class="bg-aurora">
     <div id="app"></div>
+
+    <!-- En dev: Vite utilisera /src/main.js ; en prod il injecte les bundles automatiquement -->
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

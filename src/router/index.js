@@ -10,8 +10,11 @@ const routes = [
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/projects', name: 'Projects', component: Projects },
 ]
+const BASE = import.meta.env.BASE_URL || '/frederic_bk/'
+
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(BASE),
   routes,
+  scrollBehavior: () => ({ top: 0 }),
 })
